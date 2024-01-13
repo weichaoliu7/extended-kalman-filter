@@ -1,2 +1,5 @@
-# extended-kalman-filter
- 
+# Extended Kalman filter
+For the nonlinear system filtering problem, a common treatment is to transform it into an approximate linear filtering problem by using the linearization technique, of which the most widely used method is the extended Kalman filtering method (EKF). The EKF is based on linear Kalman filtering, and its core idea is that, for a general nonlinear system, the nonlinear functions f (∗) and h(∗) are firstly expanded into a Taylor series around the filter value Xˆk and the second-order and higher terms are omitted, so as to obtain an approximate linearized model, and then the Kalman filtering is applied to complete the filtering estimation of the target, etc. The Kalman filtering is used to estimate the target.
+reference: 
+[1] https://mp.weixin.qq.com/s/_nIWlXXyhAKhyTltez72HQ
+[2] 黄小平, 王岩. 卡尔曼滤波原理及应用: MATLAB 仿真[M]. 电子工业出版社, 2015.
